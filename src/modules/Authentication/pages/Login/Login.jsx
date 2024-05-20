@@ -85,6 +85,8 @@ const Login = () => {
           label="Email"
           id="email"
           variant="standard"
+          type="email"
+          required
           value={formData.email}
           onChange={handleChange}
           helperText="Ex: codeable@example.com"
@@ -94,6 +96,8 @@ const Login = () => {
           label="Password"
           id="password"
           variant="standard"
+          type="password"
+          required
           value={formData.password}
           onChange={handleChange}
           helperText="Ex: 123456"
